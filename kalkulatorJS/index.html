@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>KalkulatorJS</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="container">
+        <div class="row">
+        <div class="col-sm-6 input-settings">
+                <input class="form-control input-lg" id="inputlg" type="text">
+        </div>
+        <div class="col-md-12">
+        <div class="col-sm-1 button-settings">
+                <button type="button" value="7" class="btn btn-primary buttons-settings" onclick="addtoscreen('7')">7</button>
+                <button type="button" value="4" class="btn btn-primary buttons-settings" onclick="addtoscreen('4')">4</button>
+                <button type="button" value="1" class="btn btn-primary buttons-settings" onclick="addtoscreen('1')">1</button>
+                <button type="button" value="0" class="btn btn-primary buttons-settings" onclick="addtoscreen('0')">0</button>
+        </div>
+        <div class="col-sm-1 button-settings">
+                <button type="button" value="8" class="btn btn-primary buttons-settings" onclick="addtoscreen('8')">8</button>
+                <button type="button" value="5" class="btn btn-primary buttons-settings" onclick="addtoscreen('5')">5</button>
+                <button type="button" value="2" class="btn btn-primary buttons-settings" onclick="addtoscreen('2')">2</button>
+                <button type="button" value="." class="btn btn-primary buttons-settings" onclick="addtoscreen('.')">.</button>
+        </div>
+        <div class="col-sm-1 button-settings">
+                <button type="button" value="9" class="btn btn-primary buttons-settings" onclick="addtoscreen('9')">9</button>
+                <button type="button" value="6" class="btn btn-primary buttons-settings" onclick="addtoscreen('6')">6</button>
+                <button type="button" value="3" class="btn btn-primary buttons-settings" onclick="addtoscreen('3')">3</button>
+                <button type="button" value="=" class="btn btn-primary buttons-settings" onclick="answer('=')">=</button>
+        </div>
+        <div class="col-sm-1 button-settings">
+                <button type="button" value="+" class="btn btn-primary buttons-settings" onclick="addtoscreen('+')">+</button>
+                <button type="button" value="-" class="btn btn-primary buttons-settings" onclick="addtoscreen('-')">-</button>
+                <button type="button" value="/" class="btn btn-primary buttons-settings" onclick="addtoscreen('/')">/</button>
+                <button type="button" value="*" class="btn btn-primary buttons-settings" onclick="addtoscreen('*')">*</button>
+        </div>
+        <div class="col-sm-1 button-settings">
+                <button type="button" value="c" class="btn btn-primary buttons-settings" onclick="addtoscreen('c')">C</button>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="js/kalkulator.js"></script>
+</body>
+
+</html>
