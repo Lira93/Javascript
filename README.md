@@ -1,1 +1,3 @@
 # Javascript
+
+// Ćwiczenia JS/jQuery //
